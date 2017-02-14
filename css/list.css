@@ -1,0 +1,11 @@
+.Button__list {
+    text-align: center;
+}
+
+.Button__link {
+    background-color: #505050;
+    padding: .6rem 2rem;
+    color: white;
+    border-radius: .4rem;
+    text-decoration: none;
+}

@@ -1,3 +1,19 @@
-<ul>
-    
+
+<ul class="Photo__list grid">
+    <li ng-repeat="photo in $ctrl.photos" class="Photo__item">
+        <figure>
+            <img ng-src="{{photo.small}}"/>
+        </figure>
+        <ul class="Button__list grid">
+            <li class="Button__item">
+                <a ng-href="{{photo.small}}" class="Button__link">360</a>
+            </li>
+            <li class="Button__item">
+                <a ng-href="{{photo.medium}}" class="Button__link">768</a>
+            </li>
+            <li class="Button__item">
+                <a ng-href="{{photo.large}}" class="Button__link">1024</a>
+            </li>
+        </ul>
+    </li>
 </ul>

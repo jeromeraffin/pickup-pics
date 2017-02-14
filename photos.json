@@ -1,8 +1,20 @@
 [
     {
         "category": "test",
-        "small": "",
-        "medium": "",
-        "large": "/img/1024/pink-panther.jpg"
+        "small": "/img/360/kermit-drink-360.jpeg",
+        "medium": "/img/768/kermit-drink-768.jpeg",
+        "large": "/img/1024/kermit-drink-1024.jpeg"
+    },
+    {
+        "category": "test",
+        "small": "/img/360/kermit-pink-360.jpeg",
+        "medium": "/img/768/kermit-pink-768.jpeg",
+        "large": "/img/1024/kermit-pink-1024.jpeg"
+    },
+    {
+        "category": "test",
+        "small": "/img/360/pink-drink-360.jpeg",
+        "medium": "/img/768/pink-drink-768.jpeg",
+        "large": "/img/1024/pink-drink-1024.jpeg"
     }
 ]

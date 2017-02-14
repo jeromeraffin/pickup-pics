@@ -1,6 +1,6 @@
 'use strict'
 class Photos {
-    contructor(photosJSON) {
+    constructor(photosJSON) {
         this.data = [];
 
         photosJSON.forEach((pJson) => {

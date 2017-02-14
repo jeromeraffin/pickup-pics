@@ -1,18 +1,18 @@
 
-<ul class="Photo__list grid">
+<ul class="Photo__list grid has-gutter">
     <li ng-repeat="photo in $ctrl.photos" class="Photo__item">
         <figure>
             <img ng-src="{{photo.small}}"/>
         </figure>
         <ul class="Button__list grid">
             <li class="Button__item">
-                <a ngclipboard data-clipboard-text="{{photo.small}}" href="#" class="Button__link">360</a>
+                <a ngclipboard data-clipboard-text="{{photo.small}}" href="" class="Button__link"><span>360</span></a>
             </li>
             <li class="Button__item">
-                <a ngclipboard data-clipboard-text="{{photo.medium}}" href="#" class="Button__link">768</a>
+                <a ngclipboard data-clipboard-text="{{photo.medium}}" href="" class="Button__link"><span>768</span></a>
             </li>
             <li class="Button__item">
-                <a ngclipboard data-clipboard-text="{{photo.large}}" href="#" class="Button__link">1024</a>
+                <a ngclipboard data-clipboard-text="{{photo.large}}" href="" class="Button__link"><span>1024</span></a>
             </li>
         </ul>
     </li>

@@ -1,10 +1,25 @@
 .Button__list {
+    text-align: center;
+    margin-top: .8rem;
 }
 
 .Button__link {
-    background-color: #505050;
+    background-color: silver;
     padding: .6rem 2rem;
     color: white;
+    width: 2rem;
     border-radius: .4rem;
     text-decoration: none;
+}
+
+.Button__link:hover {
+    background-color: #882D60;
+}
+
+.Button__link:hover span {
+    display: none;
+}
+
+.Button__link:hover:before {
+    content:"Copier";
 }

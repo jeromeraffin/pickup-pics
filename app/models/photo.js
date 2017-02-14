@@ -2,9 +2,9 @@
 class Photo {
     constructor(json) {
         this.category = json.category;
-        this.small = json.small;
-        this.medium = json.medium;
-        this.large = json.large;
+        this.small = "https://jeromeraffin.github.io/pickup-pics/" +json.small;
+        this.medium = "https://jeromeraffin.github.io/pickup-pics/" +json.medium;
+        this.large = "https://jeromeraffin.github.io/pickup-pics/" +json.large;
     }
 
     // getUrlImage(image) {

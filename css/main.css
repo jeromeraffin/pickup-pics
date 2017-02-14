@@ -18,6 +18,10 @@ h1 {
 }
 h2 {
     font-size: 2.6rem;
+    text-align: center;
+    color: silver;
+    margin-top: 75px;
+    text-shadow: 1px 1px 0 #882D60;
 }
 h3 {
     font-size: 1.6rem;
@@ -91,10 +95,11 @@ nav ul li {
 /**************/
 
 main {
-	width: 70%;
-	max-width: 1200px;
-	margin: 75px auto;
-	height: 1000px;
+	margin: 10px 50px 50px 50px;
+}
+main div{
+	margin: 20px auto;
+	padding: 3rem;
 	border: 2px solid silver;
 	border-radius: 10px;
 }

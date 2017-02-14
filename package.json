@@ -1,0 +1,22 @@
+{
+  "name": "pickup-pics",
+  "version": "1.0.0",
+  "description": "Projet entrainement et révisions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeromeraffin/pickup-pics.git"
+  },
+  "author": "Brice et Jérôme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeromeraffin/pickup-pics/issues"
+  },
+  "homepage": "https://github.com/jeromeraffin/pickup-pics#readme",
+  "dependencies": {
+    "angular": "^1.6.2"
+  }
+}

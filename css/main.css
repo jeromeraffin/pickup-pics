@@ -8,7 +8,7 @@ html {
 
 }
 img {
-    max-width: 100%; 
+    max-width: 100%;
 }
 h1, h2, h3 {
     color: #fff;
@@ -43,7 +43,7 @@ a {
 header {
 	height: 150px;
 	background-color:silver;
-	background-image: 
+	background-image:
 	radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
 	radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
 	radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),

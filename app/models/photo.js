@@ -6,4 +6,9 @@ class Photo {
         this.medium = json.medium;
         this.large = json.large;
     }
+
+    // getUrlImage(image) {
+    //     let UrlImage = "http://" + $location.host() + image;
+    //     return UrlImage;
+    // }
 }
